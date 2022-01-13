@@ -1,0 +1,190 @@
+/* back ground color for body of website*/
+body {
+  background-color: white;
+}
+
+/* header for page/ logo that displays emmanuela*/
+header {
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: darkred;
+}
+/* logo for website for emmanuela*/
+header h1 {
+  display: inline-block;
+  font-size: 35px;
+  position: absolute;
+  padding-left: 60px;
+  margin-top: -20px;
+  font-weight: bold;
+}
+/* logo for website for jean-baptiste*/
+header h1 .jeanbaptiste {
+  color: black;
+}
+/* h2 - about me header in page */
+h2 {
+  font-size: 35px;
+  color: black;
+  padding-left: 40px;
+  margin-top: -18px;
+  line-height: 49px;
+}
+/* vertical line for about me */
+.verticalline {
+  border-left: solid;
+  height: 200px;
+  margin-left: 200px;
+  margin-bottom: -50p;
+  width: 400px;
+  position: relative;
+  color: darkred;
+}
+
+/* vertical line for my work */
+
+/* profile image for about me section*/
+.profile-image {
+  display: inline-flex;
+  flex-direction: row;
+  width: 160px;
+  height: auto;
+  margin-top: -200px;
+  margin-left: 30px;
+  border-radius: 70%;
+}
+/* paragraph for h2 about me */
+p {
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  margin-top: -200px;
+  margin-left: 220px;
+  font-size: 20px;
+}
+/* */
+
+/* primary nav for site, about me, work, contact me, resume*/
+.primary-nav {
+  text-align: right;
+  padding: 20px 10px;
+  width: 90%;
+  margin-right: 320px;
+  margin-top: -30px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+/* connect with me h3 */
+h3 {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  color: darkred;
+  font-weight: bold;
+  padding-left: 220px;
+  padding-top: 10px;
+}
+
+/* subtitle displays > programming portfolio page for emmanuela in html **/
+.sub-title {
+  font-size: 30px;
+  background: burlywood;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.bottom {
+  margin-bottom: 50px;
+}
+/* footer section of page*/
+.footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 14px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: black;
+  border-top: 8px solid darkred;
+  margin-top: 50px;
+}
+/* logo picture of socials media for linkdin and github  */
+
+.social {
+  width: 42px;
+  height: 1x;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+/* logo picture of socials media for facebook, did a separate class to match the others  */
+.socialstack {
+  margin-bottom: -3px;
+  width: 80px;
+  height: 45px;
+  padding: 2px;
+  margin-left: 200px;
+  margin-right: -20px;
+}
+/* my work text on my page*/
+h4 {
+  font-size: xx-large;
+  margin-bottom: 90px;
+}
+
+/*my main section listing my projects */
+.main-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.work img {
+  width: 400px;
+  margin-left: 120px;
+  margin-top: 90px;
+  border: 12px solid burlywood;
+}
+
+.work h3 {
+  bottom: 50px;
+  width: 72.4%;
+  padding: 15px;
+  margin-bottom: 0;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: burlywood;
+  margin-top: -30px;
+  margin-left: 120px;
+}
+
+/*my main section 2 listing my projects */
+.main-section1 {
+  display: flex;
+  flex-direction: row;
+}
+.work1 img {
+  width: 400px;
+  margin-left: 190px;
+  margin-top: 90px;
+  border: 12px solid burlywood;
+}
+
+.work1 h3 {
+  bottom: -300px;
+  width: 64.2%;
+  padding: 15px;
+  margin-bottom: 0;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: burlywood;
+  margin-top: -30px;
+  margin-left: 190px;
+  margin-bottom: 70px;
+}
+
+/*my work/project section of my page, listing my projects */
+
+/*classes that displays my projects*/
+
+/*media */
