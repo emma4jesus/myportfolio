@@ -32,7 +32,7 @@ h2 {
   line-height: 49px;
   font-weight: bold;
 }
-/* vertical line for about me */
+/* vertical line for about me section */
 .verticalline {
   border-left: solid;
   height: 180px;
@@ -41,9 +41,16 @@ h2 {
   width: 400px;
   color: darkred;
 }
-
-/* vertical line for my work */
-
+/* vertical line for my work section */
+.verticalline1 {
+  border-left: solid;
+  height: 200px;
+  margin-left: 250px;
+  margin-bottom: -550px;
+  margin-top: 410px;
+  width: 400px;
+  color: darkred;
+}
 /* profile image for about me section*/
 .profile-image {
   display: inline-flex;
@@ -62,7 +69,6 @@ p {
   margin-left: 290px;
   font-size: 30px;
 }
-/* */
 
 /* primary nav for site, about me, work, contact me, resume*/
 .primary-nav {
@@ -93,10 +99,6 @@ h3 {
   font-weight: bold;
 }
 
-.bottom {
-  margin-bottom: 50px;
-}
-
 /* footer section of page*/
 .footer {
   padding: 30px 0;
@@ -106,10 +108,11 @@ h3 {
   color: #ccc;
   text-align: center;
   background: black;
-  border-top: 8px solid darkred;
-  margin-top: 120px;
+  border-top: 8px solid burlywood;
+  margin-top: 190px;
 }
-/* logo picture of socials media for linkdin and github  */
+
+/* logo pictures of socials media for linkdin and github  */
 
 .social {
   width: 42px;
@@ -129,60 +132,70 @@ h3 {
 }
 /* my work text on my page*/
 h4 {
-  font-size: 40px;
-  margin-top: 120px;
-  margin-left: 250px;
+  font-size: 30px;
+  margin-top: 400px;
+  margin-left: 100px;
   font-weight: bold;
-}
-.verticalline2 {
-  height: 200px;
-  margin-left: 200px;
-  margin-bottom: -50p;
-  width: 400px;
-  position: relative;
-  color: darkred;
+  color: black;
+  margin-right: -90px;
 }
 
+/*  my work projects section */
 .container {
   height: 70vh;
   margin: 2rem;
-  width: 50%;
-  margin-top: -160px;
-  margin-left: 220px;
+  width: 65%;
+  margin-top: -150px;
+  margin-left: 340px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.cell {
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-  padding: 4rem;
-}
+
 .cell-1 {
-  background: deepskyblue;
-  border: solid;
+  background: red;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 .cell-2 {
-  background: orangered;
-  border: solid;
+  background: burlywood;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 .cell-3 {
   background: royalblue;
-  border: solid;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 .cell-4 {
   background: gold;
-  border: solid;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 .cell-5 {
   background: blueviolet;
-  border: solid;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 .cell-6 {
-  background: limegreen;
-  border: solid;
+  background: darkgray;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
+
+/* images for my work section */
 
 .cell-1 img {
   width: 100%;
@@ -219,62 +232,33 @@ h4 {
   height: 100%;
 }
 
-/*my main section listing my projects */
-.main-section {
-  display: flex;
-  flex-direction: row;
-  background: lightgray;
+/* hover effect for my work images */
+.image {
+  opacity: 1;
 }
 
-.work img {
-  width: 400px;
-  margin-left: 120px;
-  margin-top: 90px;
-  border: 12px solid burlywood;
+.cell-1:hover .image {
+  opacity: 0.6;
 }
 
-.work h3 {
-  bottom: 50px;
-  width: 72.4%;
-  padding: 15px;
-  margin-bottom: 0;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: burlywood;
-  margin-top: -30px;
-  margin-left: 120px;
+.cell-2:hover .image {
+  opacity: 0.6;
+}
+.cell-3:hover .image {
+  opacity: 0.6;
+}
+.cell-4:hover .image {
+  opacity: 0.6;
+}
+.cell-5:hover .image {
+  opacity: 0.6;
+}
+.cell-6:hover .image {
+  opacity: 0.4;
 }
 
-/*my main section 2 listing my projects */
-.main-section1 {
-  display: flex;
-  flex-direction: row;
-  background: lightgray;
+/* lists of my project name text */
+
+.h6 {
+  width: 100%;
 }
-.work1 img {
-  width: 400px;
-  margin-left: 190px;
-  margin-top: 90px;
-  border: 12px solid burlywood;
-}
-
-.work1 h3 {
-  bottom: -300px;
-  width: 64.2%;
-  padding: 15px;
-  margin-bottom: 0;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: burlywood;
-  margin-top: -30px;
-  margin-left: 190px;
-  margin-bottom: 70px;
-}
-
-/*my work/project section of my page, listing my projects */
-
-/*classes that displays my projects*/
-
-/*media */
