@@ -1,12 +1,24 @@
-# myportfolio
+# My Portfolio
 
-Weclome to My Portolio HomeWork-2
+### Weclome to My Porfolio Page.
 
-Created a portolio Page for my website using HTML and CSS.
-My portolio page has a logo, navigation links, subtitle, profile picture, about me paragragh with my social media link and displays 6 different projects with pictures.
+### My website has about me which tell you a little about myself and my profolio page list my work. my website also contains links to my Github, linkedIn and Resume.
 
-Link to website: https://emma4jesus.github.io/myportfolio/
+### Tecnology used:
 
-Images of my portolio website
-[My Website Image 1](/assets/images/website1.png)
-[My Website Image 2](/assets/images/website2.png)
+### my webpage was created with html, bootstrap and css.
+
+Link to website:
+https://emma4jesus.github.io/myportfolio/
+
+GitHub Repo: https://github.com/emma4jesus/myportfolio
+
+# Srceenshot
+
+## Desktop Version
+
+![Destop Version](./assets/images/desktop.png)
+
+## Mobile Version
+
+![Mobile Version](/assets/images/mobile.png)

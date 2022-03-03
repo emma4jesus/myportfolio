@@ -4,122 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/reset.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Emmanuela Jean-Baptiste</title>
   </head>
   <body>
-    <header> <!--logo for my website--> 
-      <h1>Emmanuela <span class="jeanbaptiste">Jean-Baptiste</span></h1>
+     <!--logo for my website--> 
+     
+     <nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand pl-3" href="index.html">Emmanuela Jean-Baptiste</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!-- nav for my website--> 
 
-      <!--nav for my website--> 
-      <div class="primary-nav">
-        <a href="#about-me-right">About Me</a>
-        <a href="#work">Work</a>
-        <a href="#contact-me">Contact-Me</a>
-        <a href="#resume">Resume</a>
-      </div>
-    </header>
-<!--subtitle--> 
-    <div class="sub-title">
-      <h5>Programming Portfolio Page For Emmanuela Jean-Baptiste</h5>
-      <br />
-      <br />
+    <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarNavAltMarkup"
+  >
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">About</a>
+      <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="https://github.com/emma4jesus">GitHub</a>
+      <a class="nav-item nav-link" href="https://www.linkedin.com/in/emmanuela-jean-baptiste-8442501a2">LinkedIn</a>
+      <a class="nav-item nav-link" href="https://github.com/emma4jesus/myportfolio/blob/main/assets/Emmanuela_resumes.B.pdf">Resume</a>
     </div>
-<!--about me section--> 
-    <div class="about me">
-      <br />
-      <h2>About Me</h2> 
-      
-      <div class="verticalline"></div>
-      <!--about me profile pic--> 
-      <img 
-     src="assets/images/emma.jpeg" 
-        class="profile-image"alt="Emmanuela Jean-Baptiste Profile Picture"
-        
+  </div>
+</nav>
+
+  <div class="container pb-5">
+    <div>
+      <h1 class="ml-1">About Me</h1>
+      <img
+        class="square_image mt-3"
+        src="assets/images/emma.jpeg"
+        alt="Emmanuela Jean-Baptiste"
+        width="200px"
       />
-      <br />
-  
-      <p>
-        Hello and Welcome to my website my name is Emmanuela (Emma) and i live
-        in the Douglasville area in Gerogia. <br />
-        i am in the process of becoming a full stack software programmer. prior
-        to this i worked in the banking industry for many years <br />
-        and although i really liked my career, programming has also been my
-        passion and when the opportunity presented itself, <br />
-        i said heck yes to it. I am really exicted about this about
-        this new journey and grateful that i can be in the career i love.
-      </p>
-    </div>
-    <!--connect with mme section and links to soicial media--> 
-    <div id="Connect">
-      <h3>Connect With Me</h3>
-
-      <a target="_blank" href="https://www.facebook.com/"
-      ><img
-        src="assets/images/Facebook-logo.png"
-        class="socialstack"
-        alt="Facebook"
-    /></a>      
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/emmanuela-jean-baptiste-8442501a2/"
-        ><img
-          src="assets/images/linkedin.png"
-          class="social"
-          alt="linkedin"
-        />
-      </a>
-      <a target="_blank" href="https://github.com/emma4jesus"
-      ><img src="assets/images/github.png" class="social" alt="GitHub" />
-    </a>
-    <!--verticalline next to my work--> 
-   <div class="verticalline1"></div>
-    
-   <!--my work text --> 
-   <h4>My Work</h4> 
-
-   <!--section listing my projects--> 
-      <section>
-       
-       <div class="container">
-          <div class="cell-1"> Project Food.
-         <img src="assets/images/food.jpeg" alt="food" class="image">
-         </div>
-
-          <div class="cell-2"> Project Nature.
-            <img src="assets/images/nature.jpeg" alt="nature" class="image">
-           
-          </div>
-          
-          <div class="cell-3">Project City.
-            <img src="assets/images/city.jpeg" alt="city" class="image">
-            
-          </div>
-
-          <div class="cell-4"> Project People.
-            <img src="assets/images/people.jpeg" alt="people" class="image">
-           
-          </div>
-          
-          <div class="cell-5">Project Sports.
-            <img src="assets/images/sports.jpeg" alt="sports" class="image">
-           
-          </div>
-          
-          <div class="cell-6">Project Night-Life.
-            <img src="assets/images/nightlife.jpeg" alt="nightlife" class="image">
-            
-          </div>
-       
-    </section>
-
-   <!--footer section--> 
-    <footer>
-      <div class="footer">Copyright &copy; 2022 Emmanuela Jean-Baptiste</div>
-   
+      <div class="paragraph mt-4">
+        <p>
+          Hello and welcome, my name is Emmanuela (Emma). 
+          I live in the douglasville, GA area with my husband and dogs.
+          I am a full stack software developer in Atlanta Gerogia. 
+          Prior to this i worked in the banking industry for many years
+          but i always had the passion for coding.
+        </p>
        
       </div>
-    </footer>
+    </div>
+  </div>
+  
+
+    <div class="card fixed-bottom mt-5">
+      <div class="card-header text-center"></div>
+    </div>
+      </div>
   </body>
 </html>

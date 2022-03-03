@@ -1,264 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 /* back ground color for body of website*/
+html,
 body {
-  background-color: #e5e4e2;
+  background: #e2e5e3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #e2e5e3, #e2e5e3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #e2e5e3, #e2e5e3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
 }
-
-/* header for page/ logo that displays emmanuela*/
-header {
-  padding: 30px;
-  font-family: "Times New Roman", Times, serif;
-  color: darkred;
-  background: white;
-}
-/* logo for website for emmanuela*/
-header h1 {
-  display: inline-block;
-  font-size: 35px;
-  position: absolute;
-  padding-left: 60px;
-  margin-top: -20px;
-  font-weight: bold;
-}
-/* logo for website for jean-baptiste*/
-header h1 .jeanbaptiste {
-  color: black;
-}
-/* h2 - about me header in page */
-h2 {
-  font-size: 35px;
-  color: black;
-  padding-left: 40px;
-  margin-bottom: 20px;
-  line-height: 49px;
-  font-weight: bold;
-}
-/* vertical line for about me section */
-.verticalline {
-  border-left: solid;
-  height: 180px;
-  margin-left: 250px;
-  margin-bottom: -60px;
-  width: 400px;
-  color: darkred;
-}
-/* vertical line for my work section */
-.verticalline1 {
-  border-left: solid;
-  height: 200px;
-  margin-left: 250px;
-  margin-bottom: -550px;
-  margin-top: 410px;
-  width: 400px;
-  color: darkred;
-}
-/* profile image for about me section*/
-.profile-image {
-  display: inline-flex;
-  flex-direction: row;
-  width: 200px;
-  height: auto;
-  margin-top: -140px;
-  margin-left: 30px;
-  border-radius: 70%;
-}
-/* paragraph for h2 about me */
-p {
-  margin-bottom: 20px;
-  font-family: "Times New Roman", Times, serif;
-  margin-top: -250px;
-  margin-left: 290px;
-  font-size: 30px;
-}
-
-/* primary nav for site, about me, work, contact me, resume*/
-.primary-nav {
-  text-align: right;
-  padding: 20px 10px;
-  width: 90%;
-  margin-right: 320px;
-  margin-top: -30px;
-  font-size: x-large;
-  font-weight: bolder;
-}
-/* connect with me h3 */
-h3 {
-  font-size: x-large;
-  font-family: "Times New Roman", Times, serif;
-  color: darkred;
-  font-weight: bold;
-  padding-left: 280px;
-  padding-top: 1px;
-}
-
-/* subtitle displays > programming portfolio page for emmanuela in html **/
-.sub-title {
-  font-size: 30px;
-  background: burlywood;
-  text-align: center;
-  padding-bottom: 20px;
+h1 {
+  font-family: "Comic Sans", sans-serif;
   font-weight: bold;
 }
 
-/* footer section of page*/
-.footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 14px;
-  color: #fff;
-  color: #ccc;
-  text-align: center;
-  background: black;
-  border-top: 8px solid burlywood;
-  margin-top: 191px;
+.navbar-dark .navbar-brand {
+  font-size: 2em;
+  font-family: "Pacifico", serif;
+  color: white;
 }
 
-/* logo pictures of socials media for linkdin and github  */
+.square_image {
+  width: 270px;
+  height: 280px;
+  border-radius: 50%;
+}
 
-.social {
-  width: 42px;
-  height: 1x;
-  margin-top: 1px;
-  margin-left: 20px;
-  margin-right: -15px;
-}
-/* logo picture of socials media for facebook, did a separate class to match the others  */
-.socialstack {
-  margin-bottom: -3px;
-  width: 80px;
-  height: 45px;
-  padding: 2px;
-  margin-left: 280px;
-  margin-right: -40px;
-}
-/* my work text on my page*/
-h4 {
-  font-size: 30px;
-  margin-top: 400px;
-  margin-left: 100px;
+.paragraph {
+  font-size: 1.2em;
+  margin-top: 10px;
+  line-height: 1.6em;
   font-weight: bold;
-  color: black;
-  margin-right: -90px;
 }
 
-/*  my work projects section */
 .container {
-  height: 70vh;
-  margin: 2rem;
-  width: 65%;
-  margin-top: -150px;
-  margin-left: 340px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
-.cell-1 {
-  background: red;
-  font-size: x-large;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-.cell-2 {
-  background: burlywood;
-  font-size: x-large;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-.cell-3 {
-  background: royalblue;
-  font-size: x-large;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-.cell-4 {
-  background: gold;
-  font-size: x-large;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-.cell-5 {
-  background: blueviolet;
-  font-size: x-large;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-.cell-6 {
-  background: darkgray;
-  font-size: x-large;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* images for my work section */
-
-.cell-1 img {
-  width: 100%;
-  height: 100%;
-}
-
-.cell-2 img {
-  width: 100%;
-  height: 100%;
-}
-
-.cell-2 img {
-  width: 100%;
-  height: 100%;
-}
-
-.cell-3 img {
-  width: 100%;
-  height: 100%;
-}
-
-.cell-4 img {
-  width: 100%;
-  height: 100%;
-}
-
-.cell-5 img {
-  width: 100%;
-  height: 100%;
-}
-
-.cell-6 img {
-  width: 100%;
-  height: 100%;
-}
-
-/* hover effect for my work images */
-.image {
-  opacity: 1;
-}
-
-.cell-1:hover .image {
-  opacity: 0.6;
-}
-
-.cell-2:hover .image {
-  opacity: 0.6;
-}
-.cell-3:hover .image {
-  opacity: 0.6;
-}
-.cell-4:hover .image {
-  opacity: 0.6;
-}
-.cell-5:hover .image {
-  opacity: 0.6;
-}
-.cell-6:hover .image {
-  opacity: 0.4;
-}
-
-/* lists of my project name text */
-
-.h6 {
-  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 65px;
 }
