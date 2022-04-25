@@ -15,10 +15,10 @@ GitHub Repo: https://github.com/emma4jesus/myportfolio
 
 # Srceenshot
 
-## Desktop Version
+## About Page
 
-![Destop Version](./assets/images/desktop.png)
+![About Page](./assets/images/desktop.png)
 
-## Mobile Version
+## Portfolio page
 
-![Mobile Version](/assets/images/mobile.png)
+![Portfolio Page](/assets/images/portfolio.png)
